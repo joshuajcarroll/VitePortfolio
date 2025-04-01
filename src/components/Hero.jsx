@@ -29,10 +29,11 @@ export default function Hero() {
     />
             </h2>
             <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                <FaTwitter className="cursor-pointer" size={20} />
-                <FaFacebookF className="cursor-pointer" size={20} />
-                <FaLinkedinIn className="cursor-pointer" size={20} />
-                <AiOutlineGithub className="cursor-pointer" size={20} />
+                <a href="https://www.facebook.com/joshua.carroll.921">
+              <FaFacebookF size={20} />
+              </a>
+                <a href="https://www.linkedin.com/in/joshjcarroll" className="cursor-pointer"><FaLinkedinIn  size={20} /></a>
+                <a href='https://github.com/joshuajcarroll' className="cursor-pointer"><AiOutlineGithub size={20} /></a>
             </div>
         </div>
 
