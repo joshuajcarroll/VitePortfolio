@@ -12,7 +12,7 @@ function About() {
             <div className="flex flex-col justify-center items-center">
                 
                 <p className='text-[#001b5e]'>
-                    I am passionate about leveraging technology to drive innovation and efficiency. I am a Full Stack Developer with experience in building web applications using JavaScript, React, Node.js, and MongoDB.
+                    I am passionate about leveraging technology to drive innovation and efficiency. I am a Full Stack Developer with experience in building web applications using JavaScript, React, Node.js, and MongoDB. I also have experience with PostgreSQL, Next.js, React Native, and am currently studying for AWS Certified Developer certification.
                     I have always had an interest in technology and how it can be used to solve real-world problems. Constantly learning and improving my skills to stay up-to-date with the latest technologies and trends in the industry.
                     A quick learner and a team player with excellent communication skills. I am currently seeking opportunities to work on exciting projects and collaborate with talented individuals.
                 </p>
