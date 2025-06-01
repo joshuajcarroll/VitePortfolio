@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import gamingImg from "../assets/gaming-app.png";
 import medicalImg from "../assets/MediTrack.png";
-import foodiesImg from "../assets/Foodies.png";
+import furryImg from "../assets/furry-friends-finder.png";
 import newsImg from "../assets/NextJSNews.png";
 
 function Projects() {
@@ -14,8 +14,8 @@ function Projects() {
         <div className="grid sm:grid-cols-2 gap-12">
             <ProjectItem url="https://health-app-65191.web.app" image={medicalImg} title="MediTrack App"/>
             <ProjectItem url="https://my-gaming-app.vercel.app" image={gamingImg} title="Gaming App"/>
-            {/*<ProjectItem url="https://next-js-foodies-project.vercel.app" image={foodiesImg} title="Foodies App"/>
-            <ProjectItem image={newsImg} title="News App"/>*/}
+            <ProjectItem url="https://furry-friends-finder.com" image={furryImg} title="Foodies App"/>
+            {/*<ProjectItem image={newsImg} title="News App"/>*/}
         </div>
     </div>
   )
