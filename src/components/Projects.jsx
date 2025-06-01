@@ -14,7 +14,7 @@ function Projects() {
         <div className="grid sm:grid-cols-2 gap-12">
             <ProjectItem url="https://health-app-65191.web.app" image={medicalImg} title="MediTrack App"/>
             <ProjectItem url="https://my-gaming-app.vercel.app" image={gamingImg} title="Gaming App"/>
-            <ProjectItem url="https://furry-friends-finder.com" image={furryImg} title="Foodies App"/>
+            <ProjectItem url="https://furry-friends-finder.com" image={furryImg} title="Furry Friends App"/>
             {/*<ProjectItem image={newsImg} title="News App"/>*/}
         </div>
     </div>
