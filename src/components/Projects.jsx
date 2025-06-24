@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem';
 import gamingImg from "../assets/gaming-app.png";
 import medicalImg from "../assets/MediTrack.png";
 import furryImg from "../assets/furry-friends-finder.png";
-import newsImg from "../assets/NextJSNews.png";
+import aiImg from "../assets/AITravelAssistant.png";
 
 function Projects() {
   return (
@@ -15,7 +15,7 @@ function Projects() {
             <ProjectItem url="https://health-app-65191.web.app" image={medicalImg} title="MediTrack App"/>
             <ProjectItem url="https://my-gaming-app.vercel.app" image={gamingImg} title="Gaming App"/>
             <ProjectItem url="https://furry-friends-finder.com" image={furryImg} title="Furry Friends App"/>
-            {/*<ProjectItem image={newsImg} title="News App"/>*/}
+            <ProjectItem url="https://ai-travel-app-lemon.vercel.app/" image={aiImg} title="AI Travel Assitant"/>
         </div>
     </div>
   )
